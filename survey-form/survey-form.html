@@ -1,0 +1,70 @@
+<link rel="stylesheet" href="styles.css">
+    <h1 id="title"> Gamer's Survey Form </h1>
+        <p id="description"> Thank you for taking the time to help us improve the platform </p>
+
+<form id="survey-form">
+  <div class="input-element">
+    <label id="name-label"> Name 
+    </label>
+      <input placeholder="Enter your Name" id="name" type="text" required>
+      </input>
+  </div>
+  <div class="input-element">
+    <label id="email-label"> Email 
+    </label>
+      <input placeholder="Enter your Email" id="email" type="email" required>
+      </input>
+  </div>
+  <div class="input-element">
+    <label id="number-label"> Age 
+    </label>
+      <input placeholder="Age" id="number" type="number" required min="1" max="100">
+      </input>
+  </div>
+<div class="input-element">
+  <label> Which option best describes your current role? </label>
+  <select id="dropdown">
+    <option> ---Select Option--- </option>
+    <option> Warrior </option>
+    <option> Mage </option>
+    <option> Hunter </option>
+    <option> Assassin </option>
+    <option> Mechanic </option>
+  </select>
+</div>
+<div class="input-element">
+  <label>How frequently are you playing games?</label>
+  <div>
+  <input type="radio" name="daily" value="daily"></input>
+  <label>Everyday</label>
+  </div>
+  <div>
+    <input type="radio" name="daily" value="thrice"></input>
+      <label>Thrice a Weekly</label>
+  </div>
+  <div>
+    <input type="radio" name="daily" value="weekly"></input>
+      <label>Only Weekly</label>
+  </div>
+</div>
+<div class="input-element">
+   <label>Where would you go if the level is too hard?</label>
+   <div>
+  <input type="checkbox" name="wiki" value="wiki"></input>
+  <label>Wiki Guide</label>
+  </div>
+  <div>
+    <input type="checkbox" name="wiki" value="youtube"></input>
+      <label>YouTube</label>
+  </div>
+  <div>
+    <input type="checkbox" name="wiki" value="none"></input>
+      <label>None</label>
+  </div>
+</div>
+<div class="input-element">
+  <label> Comments or Suggestions? </label>
+  <textarea type="text" placeholder="Enter your comments and suggestions here...."></textarea>
+</div>
+<button type="submit" id="submit">Submit</button>
+</form>
